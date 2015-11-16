@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8C5F6241BF99F0300C10B87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C5F6231BF99F0300C10B87 /* main.m */; };
+		F8C5F6271BF99F0300C10B87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C5F6261BF99F0300C10B87 /* AppDelegate.m */; };
+		F8C5F62F1BF99F0300C10B87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8C5F62E1BF99F0300C10B87 /* Assets.xcassets */; };
+		F8C5F6321BF99F0300C10B87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8C5F6301BF99F0300C10B87 /* LaunchScreen.storyboard */; };
+		F8C5F63A1BF9B0ED00C10B87 /* SMS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C5F6391BF9B0ED00C10B87 /* SMS_SDK.framework */; };
+		F8C5F63C1BF9B15300C10B87 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C5F63B1BF9B15300C10B87 /* libicucore.tbd */; };
+		F8C5F63E1BF9B15C00C10B87 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C5F63D1BF9B15C00C10B87 /* libz.tbd */; };
+		F8C5F6401BF9B16300C10B87 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C5F63F1BF9B16300C10B87 /* MessageUI.framework */; };
+		F8C5F6421BF9B16B00C10B87 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C5F6411BF9B16B00C10B87 /* JavaScriptCore.framework */; };
+		F8C5F6441BF9B17400C10B87 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C5F6431BF9B17400C10B87 /* libstdc++.tbd */; };
+		F8C5F64A1BF9BD0800C10B87 /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C5F6491BF9BD0800C10B87 /* MOBFoundation.framework */; };
+		F8C5F64E1BF9C68200C10B87 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C5F64C1BF9C68200C10B87 /* LoginViewController.m */; };
+		F8C5F64F1BF9C68200C10B87 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8C5F64D1BF9C68200C10B87 /* LoginViewController.xib */; };
+		F8C5F6511BF9D4BB00C10B87 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8C5F6501BF9D4BB00C10B87 /* logo@2x.png */; };
+		F8C5F6541BF9D74C00C10B87 /* phone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8C5F6521BF9D74C00C10B87 /* phone@2x.png */; };
+		F8C5F6551BF9D74C00C10B87 /* password@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8C5F6531BF9D74C00C10B87 /* password@2x.png */; };
+		F8C5F6591BF9FD4700C10B87 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C5F6571BF9FD4700C10B87 /* RegisterViewController.m */; };
+		F8C5F65A1BF9FD4700C10B87 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8C5F6581BF9FD4700C10B87 /* RegisterViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F8C5F61F1BF99F0300C10B87 /* 短信注册.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "短信注册.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C5F6231BF99F0300C10B87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8C5F6251BF99F0300C10B87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8C5F6261BF99F0300C10B87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8C5F62E1BF99F0300C10B87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8C5F6311BF99F0300C10B87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8C5F6331BF99F0300C10B87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8C5F6391BF9B0ED00C10B87 /* SMS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SMS_SDK.framework; path = "短信注册/SMS_SDK.framework"; sourceTree = "<group>"; };
+		F8C5F63B1BF9B15300C10B87 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		F8C5F63D1BF9B15C00C10B87 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F8C5F63F1BF9B16300C10B87 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F8C5F6411BF9B16B00C10B87 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F8C5F6431BF9B17400C10B87 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		F8C5F6491BF9BD0800C10B87 /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		F8C5F64B1BF9C68200C10B87 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		F8C5F64C1BF9C68200C10B87 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		F8C5F64D1BF9C68200C10B87 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		F8C5F6501BF9D4BB00C10B87 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		F8C5F6521BF9D74C00C10B87 /* phone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone@2x.png"; sourceTree = "<group>"; };
+		F8C5F6531BF9D74C00C10B87 /* password@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "password@2x.png"; sourceTree = "<group>"; };
+		F8C5F6561BF9FD4700C10B87 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		F8C5F6571BF9FD4700C10B87 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		F8C5F6581BF9FD4700C10B87 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8C5F61C1BF99F0300C10B87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C5F6441BF9B17400C10B87 /* libstdc++.tbd in Frameworks */,
+				F8C5F6421BF9B16B00C10B87 /* JavaScriptCore.framework in Frameworks */,
+				F8C5F6401BF9B16300C10B87 /* MessageUI.framework in Frameworks */,
+				F8C5F63E1BF9B15C00C10B87 /* libz.tbd in Frameworks */,
+				F8C5F63C1BF9B15300C10B87 /* libicucore.tbd in Frameworks */,
+				F8C5F63A1BF9B0ED00C10B87 /* SMS_SDK.framework in Frameworks */,
+				F8C5F64A1BF9BD0800C10B87 /* MOBFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8C5F6161BF99F0300C10B87 = {
+			isa = PBXGroup;
+			children = (
+				F8C5F6211BF99F0300C10B87 /* 短信注册 */,
+				F8C5F6201BF99F0300C10B87 /* Products */,
+				F8C5F6451BF9B4C700C10B87 /* Framework */,
+			);
+			sourceTree = "<group>";
+		};
+		F8C5F6201BF99F0300C10B87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8C5F61F1BF99F0300C10B87 /* 短信注册.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8C5F6211BF99F0300C10B87 /* 短信注册 */ = {
+			isa = PBXGroup;
+			children = (
+				F8C5F6501BF9D4BB00C10B87 /* logo@2x.png */,
+				F8C5F6251BF99F0300C10B87 /* AppDelegate.h */,
+				F8C5F6261BF99F0300C10B87 /* AppDelegate.m */,
+				F8C5F6521BF9D74C00C10B87 /* phone@2x.png */,
+				F8C5F6531BF9D74C00C10B87 /* password@2x.png */,
+				F8C5F62E1BF99F0300C10B87 /* Assets.xcassets */,
+				F8C5F6301BF99F0300C10B87 /* LaunchScreen.storyboard */,
+				F8C5F6331BF99F0300C10B87 /* Info.plist */,
+				F8C5F6221BF99F0300C10B87 /* Supporting Files */,
+				F8C5F64B1BF9C68200C10B87 /* LoginViewController.h */,
+				F8C5F64C1BF9C68200C10B87 /* LoginViewController.m */,
+				F8C5F64D1BF9C68200C10B87 /* LoginViewController.xib */,
+				F8C5F6561BF9FD4700C10B87 /* RegisterViewController.h */,
+				F8C5F6571BF9FD4700C10B87 /* RegisterViewController.m */,
+				F8C5F6581BF9FD4700C10B87 /* RegisterViewController.xib */,
+			);
+			path = "短信注册";
+			sourceTree = "<group>";
+		};
+		F8C5F6221BF99F0300C10B87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8C5F6231BF99F0300C10B87 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8C5F6451BF9B4C700C10B87 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				F8C5F6491BF9BD0800C10B87 /* MOBFoundation.framework */,
+				F8C5F6391BF9B0ED00C10B87 /* SMS_SDK.framework */,
+				F8C5F6431BF9B17400C10B87 /* libstdc++.tbd */,
+				F8C5F6411BF9B16B00C10B87 /* JavaScriptCore.framework */,
+				F8C5F63F1BF9B16300C10B87 /* MessageUI.framework */,
+				F8C5F63D1BF9B15C00C10B87 /* libz.tbd */,
+				F8C5F63B1BF9B15300C10B87 /* libicucore.tbd */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8C5F61E1BF99F0300C10B87 /* 短信注册 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8C5F6361BF99F0300C10B87 /* Build configuration list for PBXNativeTarget "短信注册" */;
+			buildPhases = (
+				F8C5F61B1BF99F0300C10B87 /* Sources */,
+				F8C5F61C1BF99F0300C10B87 /* Frameworks */,
+				F8C5F61D1BF99F0300C10B87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "短信注册";
+			productName = "短信注册";
+			productReference = F8C5F61F1BF99F0300C10B87 /* 短信注册.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8C5F6171BF99F0300C10B87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = zy;
+				TargetAttributes = {
+					F8C5F61E1BF99F0300C10B87 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = F8C5F61A1BF99F0300C10B87 /* Build configuration list for PBXProject "短信注册" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8C5F6161BF99F0300C10B87;
+			productRefGroup = F8C5F6201BF99F0300C10B87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8C5F61E1BF99F0300C10B87 /* 短信注册 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8C5F61D1BF99F0300C10B87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C5F6541BF9D74C00C10B87 /* phone@2x.png in Resources */,
+				F8C5F6321BF99F0300C10B87 /* LaunchScreen.storyboard in Resources */,
+				F8C5F65A1BF9FD4700C10B87 /* RegisterViewController.xib in Resources */,
+				F8C5F6511BF9D4BB00C10B87 /* logo@2x.png in Resources */,
+				F8C5F62F1BF99F0300C10B87 /* Assets.xcassets in Resources */,
+				F8C5F6551BF9D74C00C10B87 /* password@2x.png in Resources */,
+				F8C5F64F1BF9C68200C10B87 /* LoginViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8C5F61B1BF99F0300C10B87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C5F64E1BF9C68200C10B87 /* LoginViewController.m in Sources */,
+				F8C5F6271BF99F0300C10B87 /* AppDelegate.m in Sources */,
+				F8C5F6241BF99F0300C10B87 /* main.m in Sources */,
+				F8C5F6591BF9FD4700C10B87 /* RegisterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8C5F6301BF99F0300C10B87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8C5F6311BF99F0300C10B87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8C5F6341BF99F0300C10B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8C5F6351BF99F0300C10B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8C5F6371BF99F0300C10B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/短信注册",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "短信注册/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.zy.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8C5F6381BF99F0300C10B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/短信注册",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "短信注册/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.zy.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8C5F61A1BF99F0300C10B87 /* Build configuration list for PBXProject "短信注册" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C5F6341BF99F0300C10B87 /* Debug */,
+				F8C5F6351BF99F0300C10B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8C5F6361BF99F0300C10B87 /* Build configuration list for PBXNativeTarget "短信注册" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C5F6371BF99F0300C10B87 /* Debug */,
+				F8C5F6381BF99F0300C10B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8C5F6171BF99F0300C10B87 /* Project object */;
+}
